@@ -1,0 +1,8 @@
+---
+- name: Create ticket with notes
+  hosts: localhost
+#  become: yes
+# connection: localhost
+  gather_facts: no
+  roles:
+    - solve_config_update_servicenow
