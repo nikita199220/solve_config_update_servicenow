@@ -1,11 +1,11 @@
 - name: Check that the somefile.conf exists
   stat:
-    path: /test/test
+    path: "{{ test_path }}"
   register: stat_result
 
 - name: Delete the file if exist
   file:
-    path: /test/test
+    path: "{{ /test/test }}"
     state: absent
   when: stat_result.stat.exists == True
 
