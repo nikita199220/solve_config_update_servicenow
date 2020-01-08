@@ -1,5 +1,4 @@
 username: admin
-password: Nikita@123
 instance: dev92253
 test_path: /Users/SQ77ER/Desktop/nikita/servicenow_ansible/check_config_update_servicenow/test
-incident_num: INC0010054
+incident_num: INC0010056
