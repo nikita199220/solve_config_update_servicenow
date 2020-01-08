@@ -23,6 +23,7 @@
       close_notes: "File has been deleted, marking resolved"
       state: 6
   when: incident_num is defined
+  delegate_to: localhost
 
 - name: MARK THE TICKET AS Close
   snow_record:
@@ -36,3 +37,5 @@
       state: 7
       close_notes: "File has been deleted, marking resolved"
   when: incident_num is defined
+  delegate_to: localhost
+  
