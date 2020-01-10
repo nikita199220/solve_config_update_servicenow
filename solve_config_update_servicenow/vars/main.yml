@@ -1,4 +1,4 @@
 username: admin
 instance: dev92253
-test_path: /test
+test_path: /home/ansible/test
 incident_num: 
